@@ -1,0 +1,33 @@
+.center-input {
+  width: 50% !important;
+  margin-left: 25% !important;
+  margin-right: 25% !important;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.mt-point5 {
+  margin-top: 0.5em;
+}
+
+.mt-1 {
+  margin-top: 1em;
+}
+
+.font-size-1-point5 {
+  font-size: 1.5rem;
+}
+
+.font-size-2 {
+  font-size: 3rem;
+}
+
+.error-message {
+  color: #c71100;
+}
+
+.roman-font {
+  font-family: "Quattrocento", serif;
+}
