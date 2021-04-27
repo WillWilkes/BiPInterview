@@ -1,14 +1,14 @@
 # BiPInterview
 
-To run, download or clone the repository.
+Download or clone the repository.
 
-## Java Spring Boot API
+### Java Spring Boot API
     
    Navigate to xx\API\RomanNumerals, open a command line and run:
    
     mvn spring-boot:run
   
-## React UI
+### React UI
 
    Navigate to xx\React, open a command line and run: 
     
