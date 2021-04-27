@@ -43,6 +43,7 @@ class SearchBar extends React.Component {
               className="center-input center-text"
               id="search-bar"
               value={this.state.input}
+              autocomplete="off"
               onChange={this.onInputChange}
             />
             <div className="center-text error-message mt-point5">
