@@ -8,6 +8,10 @@ Download or clone the repository.
    
     mvn spring-boot:run
   
+  To run the tests, open a command line and run:
+    
+    mvn test
+    
 ### React UI
 
    Navigate to xx\React, open a command line and run: 
