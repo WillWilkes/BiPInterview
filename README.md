@@ -4,7 +4,9 @@ To run, download or clone the repository.
 
 Java Spring Boot API:
     
-    Navigate to xx\API\RomanNumerals, open a command line and run "mvn spring-boot:run"
+   Navigate to xx\API\RomanNumerals, open a command line and run:
+   
+    mvn spring-boot:run
   
 React UI:
 
