@@ -48,7 +48,7 @@ class SearchBar extends React.Component {
                 value={this.state.input}
                 onChange={this.onInputChange}
               />
-              <button className="ui button search-button">Search</button>
+              <button className="ui button search-button">Convert</button>
             </div>
             <div className="center-text error-message mt-point5">
               {this.state.errorMessage}
