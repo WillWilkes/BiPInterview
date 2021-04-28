@@ -8,7 +8,7 @@ const HistoryList = ({ historyList }) => {
   })
 
   return (
-    <div className="ui segment center-text" id="conversion-history">
+    <div className="ui segment center-text light-grey-background">
       <h2 className="ui header">Conversion History</h2>
       <div className="ui relaxed divided list">{renderedList}</div>
     </div>

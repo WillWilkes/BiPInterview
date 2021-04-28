@@ -5,7 +5,7 @@
 }
 
 .center-text {
-  text-align: center;
+  text-align: center !important;
 }
 
 .mt-point5 {
@@ -30,4 +30,16 @@
 
 .roman-font {
   font-family: "Quattrocento", serif;
+}
+
+.light-blue-background {
+  background: #f6feff;
+}
+
+.light-grey-background {
+  background: #f9f9f9 !important;
+}
+
+.search-button {
+  color: black !important;
 }
