@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class NumeralsController
 {
-    @CrossOrigin(origins = "*")
+    @CrossOrigin( origins = "*" )
     @GetMapping( "/convert/roman-numeral/{number}" )
     public ResponseEntity<RomanNumeral> dashboardGet( @PathVariable int number )
     {
