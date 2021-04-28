@@ -12,12 +12,14 @@ public class RomanNumerals
 
     /**
      * Takes a latin number and converts it into a Roman Numeral
+     *
      * @param latin the latin integer to convert
      * @return A RomanNumeral Object containing the Roman Numeral as a String
      */
     public static RomanNumeral convertLatinToRomanNumeral( int latin )
     {
-        if ( latin < 1 || latin > 3999 ) {
+        if ( latin < 1 || latin > 3999 )
+        {
             throw new InvalidInputException( "Input out of range" );
         }
 
@@ -28,9 +30,13 @@ public class RomanNumerals
 
         while ( latin > 0 )
         {
-            int divides = latin / latinValues[index];
-            numeral.append( numerals[index].repeat( divides ) );
-            latin = latin % latinValues[index];
+            int latinValue = latinValues[index];
+            if ( latin >= latinValue )
+            {
+                int divides = latin / latinValue;
+                numeral.append( numerals[index].repeat( divides ) );
+                latin = latin % latinValue;
+            }
             index--;
         }
 
